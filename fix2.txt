@@ -71,3 +71,11 @@ ls
 #15
 open fix2.txt
 git commit -a -m "Add all git commands to fix2"
+
+#16
+git remote add origin git@github.com:cchriss123/GitLab1ChristoferNystrom.git
+git push -u origin main
+open fix2.txt
+git add fix2.txt
+git commit -m "Add commands for pushing to Github"
+git push
